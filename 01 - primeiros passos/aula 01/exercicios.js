@@ -81,7 +81,7 @@ matemáticas e strings (textos) em breve =)
 
 const ten = 10
 
-console.log(`Em ${2024 + 10}, estarei com ${23 + 10} anos.`)
+console.log(`Em ${2024 + ten}, estarei com ${23 + ten} anos.`)
 
 /*
 10 - Abra o site abaixo no browser e faça o seguinte:
@@ -97,6 +97,6 @@ da const myBirthYear;
 - Cole as duas linhas de código no console, pressione enter, feche o console e  
 veja o que acontece.
 
-document.querySelector('#birthYear').value = 2001
+document.querySelector('#birthYear').value = myBirthYear
 document.querySelector('.formButton').click()
 */
